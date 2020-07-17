@@ -1,8 +1,8 @@
 // Feet to Mile converter
 
 
-const feet = 5280;
 function feetToMile(input) {
+  const feet = 5280;
   if (input < 0) {
     return "Unidentified";
   } else {
@@ -10,7 +10,7 @@ function feetToMile(input) {
     return mile;
   }
 }
-let convert = feetToMile("500");
+let convert = feetToMile(6);
 console.log("Your feet = " + convert + " mile");
 
 
